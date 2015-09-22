@@ -1,3 +1,6 @@
+<?php
+namespace tigokr\imap;
+
 class ImapUtf7 {
 	static $imap_base64 =
 		'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+,';
