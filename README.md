@@ -7,13 +7,13 @@ Installation by composer
 ```composer
 {
     "require": {
-       "roopz/yii2-imap": "dev-master"
+       "tigokr/yii2-imap": "dev-master"
     }
 }
 
 Or
 
-$ composer require roopz/yii2-imap "dev-master"
+$ composer require tigokr/yii2-imap "dev-master"
 ```
 Usage
 -----
@@ -24,7 +24,7 @@ Usage
 'components' => [
       ...
       'imap' => [
-         'class' => 'roopz\imap\Imap',
+         'class' => 'tigokr\imap\Imap',
          'connection' => [
               'imapPath' => '{imap.gmail.com:993/imap/ssl}INBOX',
               'imapLogin' => 'username',
